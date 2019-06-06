@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row" id="nav">
+        <div class="col-12">
+        <img id="bike-logo" src="./images/bike-logo.svg" alt="">The Bike Shop Experience
+        </div>
+      </div>
+
+      <div class="row" id="shop-background">
+      </div>
+
+      <div class= "row">
+        <% for(var i = 0; i< dataBike.length; i++){%>
+        <div class="col-12  col-sm-6 col-md-4">
+          <div class="card text-center">
+            <img src=<%=dataBike[i].url%> class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Model <%=dataBike[i].name%></h5>
+                <span class="shop-price"><%=dataBike[i].price%>€</span>
+                <form action="/shop" method="POST">
+                    <input type="hidden" name="nameFront" value=<%=dataBike[i].name%>>
+                    <input type="hidden" name="urlFront" value=<%=dataBike[i].url%>>
+                    <input type="hidden" name="priceFront" value=<%=dataBike[i].price%>>
+                    <input type="hidden" name="quantityFront" value=1>
+                    <button type ="submit" type="button" class="btn btn-outline-primary">Buy</button>
+                  </form>
+              </div>
+          </div>
+        </div>
+        <%}%>
+      </div>
+    </div>
+
+  </body>
+</html>
