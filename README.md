@@ -12,6 +12,8 @@ For styling and layout I used [Bootstrap](https://getbootstrap.com/), the paymen
 **Screenshots:**
 
 ![bikeshop1](https://i.ibb.co/LzZ3kV1/bikeshop1.png)
+
+
 ![bikeshop2](https://i.ibb.co/3m9vd96/bikeshop2.png)
 ![bikeshop3](https://i.ibb.co/9wzdhrY/bikeshop3.png)
 
