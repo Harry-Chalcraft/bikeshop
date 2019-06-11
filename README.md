@@ -10,11 +10,11 @@ The are two ejs templates (index.ejs and shop.ejs).
 For styling and layout I used [Bootstrap](https://getbootstrap.com/), the payment method is done with [Stripe](https://stripe.com/fr), which is very dev-friendly and easy to configure. I strrongly recommend for beginners like me!
 
 **Screenshots:**
-
+Shop screen:
 ![bikeshop1](https://i.ibb.co/LzZ3kV1/bikeshop1.png)
-
-
+Basket screen:
 ![bikeshop2](https://i.ibb.co/3m9vd96/bikeshop2.png)
+Payment screen
 ![bikeshop3](https://i.ibb.co/9wzdhrY/bikeshop3.png)
 
 ## Developed With
