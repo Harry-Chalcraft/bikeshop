@@ -7,6 +7,8 @@ This is a good example of a basic e-market website developed entirely on NodeJS.
 The product listing is hard-coded in the back-end index.js file.
 There are two ejs templates (index.ejs and shop.ejs).
 
+The website is responsive to screen size.
+
 For styling and layout I used [Bootstrap](https://getbootstrap.com/), the payment method is done with [Stripe](https://stripe.com/fr), which is very dev-friendly and easy to configure. I strrongly recommend for beginners like me!
 
 **Screenshots:**
