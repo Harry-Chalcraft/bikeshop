@@ -10,7 +10,7 @@ var dataBike =[{name:"BIKO45", price:679, url:"./images/bike-1.jpg"},
 
 
 //STRIPE is required with my personnal key
-const stripe = require('stripe')('sk_test_wpi6z8KBu6lc5tJgG0e4cYQ0');
+const stripe = require('stripe')(//your stripe personnal key HERE);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
