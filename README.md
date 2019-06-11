@@ -11,17 +11,24 @@ For styling and layout I used [Bootstrap](https://getbootstrap.com/), the paymen
 
 **Screenshots:**
 * Shop screen:
+
+
+
 ![bikeshop1](https://i.ibb.co/LzZ3kV1/bikeshop1.png)
 
 
 
 
 * Basket screen:
+
+
+
 ![bikeshop2](https://i.ibb.co/3m9vd96/bikeshop2.png)
 
-
-
 * Payment screen:
+
+
+
 ![bikeshop3](https://i.ibb.co/9wzdhrY/bikeshop3.png)
 
 ## Developed With
